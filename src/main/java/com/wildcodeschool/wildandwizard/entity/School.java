@@ -17,6 +17,12 @@ public class School {
         this.country = country;
     }
 
+    public School(String name, Long capacity, String country) {
+        this.name = name;
+        this.capacity = capacity;
+        this.country = country;
+    }
+
     public Long getId() {
         return id;
     }
